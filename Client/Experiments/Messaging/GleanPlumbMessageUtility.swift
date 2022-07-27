@@ -7,6 +7,7 @@ import Foundation
 import MozillaAppServices
 import Shared
 
+private let log = Logger.syncLogger
 /// Methods here can be considered as tools for extracting certain information from a message.
 class GleanPlumbMessageUtility: Loggable {
 
@@ -24,6 +25,7 @@ class GleanPlumbMessageUtility: Loggable {
         do {
             return try Experiments.shared.createMessageHelper(additionalContext: contextProvider.createAdditionalDeviceContext())
         } catch {
+            log.debug("DEBUG - createGleanPlumbHelper with error \(error)")
             /// If we're here, then all of Messaging is in limbo! Report the error and let the surface handle this `nil`
             browserLog.error("GleanPlumbMessageHelper could not be created! With error \(error)")
             return nil

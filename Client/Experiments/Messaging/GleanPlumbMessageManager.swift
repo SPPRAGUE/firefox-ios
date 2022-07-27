@@ -56,6 +56,8 @@ protocol GleanPlumbMessageManagerProtocol {
 ///     - exposure
 ///     - malformed message
 ///     - expiration (handled in the store)
+private let log = Logger.syncLogger
+
 class GleanPlumbMessageManager: GleanPlumbMessageManagerProtocol {
 
     // MARK: - Properties
@@ -87,23 +89,36 @@ class GleanPlumbMessageManager: GleanPlumbMessageManagerProtocol {
 
     /// Returns the next valid and triggered message for the surface, if one exists.
     func getNextMessage(for surface: MessageSurfaceId) -> GleanPlumbMessage? {
+        log.debug("getNextMessage CALLED for \(surface)")
         /// All these are non-expired, well formed, and descending priority ordered messages for a requested surface.
         let messages = getAllValidMessagesFor(surface, with: feature)
 
+        log.debug("going to create plumber, we have messages count: \(messages.count)")
         /// If `GleanPlumbHelper` creation fails, we cannot continue with this feature! For that reason, return `nil`.
         /// We need to recreate the helper for each request to get a message because device context can change.
-        guard let gleanPlumbHelper = messagingUtility.createGleanPlumbHelper() else { return nil }
+        guard let gleanPlumbHelper = messagingUtility.createGleanPlumbHelper() else {
+            log.debug("createGleanPlumbHelper failed returning nil")
+            return nil
+        }
 
         /// Take the first triggered message.
-        guard let message = getNextTriggeredMessage(messages, gleanPlumbHelper) else { return nil }
+        log.debug("Going to call getNextTriggeredMessage")
+        guard let message = getNextTriggeredMessage(messages, gleanPlumbHelper) else {
+            log.debug("getNextTriggeredMessage failed returning nil")
+            return nil
+        }
 
         /// If it's a message under experiment, we need to react to whether it's a control or not.
         if message.isUnderExperimentWith(key: feature.messageUnderExperiment) {
+            log.debug("isUnderExperimentWith started")
             guard let nextTriggeredMessage = handleMessageUnderExperiment(message,
                                                                           messages,
                                                                           gleanPlumbHelper,
                                                                           feature.onControl)
-            else { return nil }
+            else {
+                log.debug("DEBUG - isUnderExperimentWith failed returning nil")
+                return nil
+            }
 
             return nextTriggeredMessage
         }
@@ -243,7 +258,8 @@ class GleanPlumbMessageManager: GleanPlumbMessageManagerProtocol {
         messages.first( where: { message in
             do {
                 return try messagingUtility.isMessageEligible(message, messageHelper: helper)
-            } catch {
+            } catch let error {
+                print("DEBUG - getNextTriggeredMessage failed with \(error)")
                 return false
             }
         })
