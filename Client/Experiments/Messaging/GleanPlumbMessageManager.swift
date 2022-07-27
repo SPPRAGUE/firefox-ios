@@ -257,9 +257,10 @@ class GleanPlumbMessageManager: GleanPlumbMessageManagerProtocol {
     private func getNextTriggeredMessage(_ messages: [GleanPlumbMessage], _ helper: GleanPlumbMessageHelper) -> GleanPlumbMessage? {
         messages.first( where: { message in
             do {
+                log.debug("DEBUG - calling isMessageEligible with \(message)")
                 return try messagingUtility.isMessageEligible(message, messageHelper: helper)
             } catch let error {
-                print("DEBUG - getNextTriggeredMessage failed with \(error)")
+                log.debug("DEBUG - getNextTriggeredMessage failed with \(error)")
                 return false
             }
         })

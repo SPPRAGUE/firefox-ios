@@ -35,15 +35,21 @@ class GleanPlumbMessageUtility: Loggable {
     /// We check whether this message is triggered by evaluating message JEXLs.
     func isMessageEligible(_ message: GleanPlumbMessage, messageHelper: GleanPlumbMessageHelper) throws -> Bool {
         try message.triggers.reduce(true) { accumulator, trigger in
-            guard accumulator else { return false }
+            guard accumulator else {
+                log.debug("DEBUG - GleanPlumbMessageUtility accumulator \(accumulator)")
+                return false
+            }
             var isTriggered: Bool
 
-            /// Check the jexlMap for the `Bool`, in the case we already evaluated it.
+            // Check the jexlMap for the `Bool`, in the case we already evaluated it.
             if jexlMap[trigger] != nil, let jexlEvaluation = jexlMap[trigger] {
+                log.debug("DEBUG - GleanPlumbMessageUtility if \(jexlEvaluation)")
                 isTriggered = jexlEvaluation
             } else {
-                /// Otherwise, perform this expensive Foreign Function Interface operation once for the trigger.
+                // Otherwise, perform this expensive Foreign Function Interface operation once for the trigger.
+                log.debug("DEBUG - GleanPlumbMessageUtility else \(trigger)")
                 isTriggered = try messageHelper.evalJexl(expression: trigger)
+                log.debug("DEBUG - GleanPlumbMessageUtility isTriggered \(isTriggered)")
                 jexlMap[trigger] = isTriggered
             }
 
