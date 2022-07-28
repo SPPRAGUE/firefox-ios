@@ -6,6 +6,7 @@ import Foundation
 import Shared
 import Storage
 
+private let log = Logger.syncLogger
 class GleanPlumbContextProvider {
 
     enum ContextKey: String {
@@ -20,7 +21,9 @@ class GleanPlumbContextProvider {
     }
 
     private var isDefaultBrowser: Bool {
-        return UserDefaults.standard.bool(forKey: RatingPromptManager.UserDefaultsKey.keyIsBrowserDefault.rawValue)
+        let isDefaultBrowser = UserDefaults.standard.bool(forKey: RatingPromptManager.UserDefaultsKey.keyIsBrowserDefault.rawValue)
+        log.debug("DEBUG - GleanPlumbContextProvider isDefaultBrowser: \(isDefaultBrowser)")
+        return isDefaultBrowser
     }
 
     /// JEXLs are more accurately evaluated when given certain details about the app on device.
