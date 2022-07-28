@@ -36,7 +36,7 @@ class GleanPlumbMessageUtility: Loggable {
     func isMessageEligible(_ message: GleanPlumbMessage, messageHelper: GleanPlumbMessageHelper) throws -> Bool {
         try message.triggers.reduce(true) { accumulator, trigger in
             guard accumulator else {
-                log.debug("DEBUG - GleanPlumbMessageUtility accumulator \(accumulator)")
+                log.debug("DEBUG - GleanPlumbMessageUtility accumulator \(accumulator) for trigger \(trigger)")
                 return false
             }
             var isTriggered: Bool
