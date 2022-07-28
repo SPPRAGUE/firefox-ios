@@ -34,9 +34,6 @@ class GleanPlumbMessageUtility: Loggable {
 
     /// We check whether this message is triggered by evaluating message JEXLs.
     func isMessageEligible(_ message: GleanPlumbMessage, messageHelper: GleanPlumbMessageHelper) throws -> Bool {
-        guard !AppConstants.isRunningTest else {
-            return true
-        }
 
         return try message.triggers.reduce(true) { accumulator, trigger in
             guard accumulator else {
