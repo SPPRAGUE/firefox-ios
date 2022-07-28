@@ -29,9 +29,12 @@ class GleanPlumbMessageManagerTests: XCTestCase {
         sut = nil
     }
 
+
     func testManagerHasMessage() {
-        let messageForSurface = sut.hasMessage(for: .newTabCard)
-        XCTAssertTrue(messageForSurface)
+        if #available(iOS 14.3, *) {
+            let messageForSurface = sut.hasMessage(for: .newTabCard)
+            XCTAssertTrue(messageForSurface)
+        }
     }
 
     func testManagerGetMessage() {
