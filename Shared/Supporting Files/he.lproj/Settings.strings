@@ -1,3 +1,6 @@
+/* Description label for when there are no credit cards shown in credit card list in autofill settings screen. */
+"CreditCard.Settings.EmptyListDescription.v112" = "באפשרותך לשמור את פרטי הכרטיס שלך בצורה מאובטחת כדי לבצע צ’ק-אאוט מהר יותר בפעם הבאה.";
+
 /* Title label for when there are no credit cards shown in credit card list in autofill settings screen. %@ is the product name and should not be altered. */
 "CreditCard.Settings.EmptyListTitle.v112" = "שמירת כרטיסי אשראי ב־%@";
 
@@ -25,8 +28,14 @@
 /* When a user is in the process of making a purchase, and has at least one saved card, we show this label inside the keyboard hint. This indicates to the user that there are stored cards available for use on this pending purchase. */
 "CreditCards.Settings.UseSavedCardFromKeyboard.v112" = "שימוש בכרטיס שמור";
 
+/* This is the description for the setting that toggles Sync related notifications in the settings menu under the Notifications section. */
+"Settings.Notifications.SyncNotificationsStatus.v112" = "על הגדרה זו להיות מופעלת כדי לקבל לשוניות ולקבל התרעות כשנכנסים לחשבון ממכשיר נוסף.";
+
 /* This is the title for the setting that toggles Sync related notifications in the settings menu under the Notifications section. */
 "Settings.Notifications.SyncNotificationsTitle.v112" = "סנכרון";
+
+/* This is the footer title informing the user needs to turn on notifications in iOS Settings. The placeholder will be replaced with the app name. */
+"Settings.Notifications.SystemNotificationsDisabledMessage.v112" = "כיבית את כל ההתראות של %1$@. יש להפעיל אותם על־ידי מעבר להגדרות המכשיר > התראות > %2$@";
 
 /* This is the title for the setting that toggles Tips and Features feature in the settings menu under the Notifications section. */
 "Settings.Notifications.TipsAndFeaturesNotificationsTitle.v112" = "עצות ותכונות";
