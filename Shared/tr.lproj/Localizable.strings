@@ -221,7 +221,7 @@
 "Could not load page." = "Sayfa yüklenemedi.";
 
 /* Description for the new ETP mode i.e. standard vs strict */
-"CoverSheet.v24.ETP.Description" = "Gelişmiş izlenme korumamız reklamların sizi takip etmesini önlüyor. Daha fazla takipçiyi, reklamı ve açılır pencereyi engellemek isterseniz “sıkı” korumayı seçebilirsiniz.";
+"CoverSheet.v24.ETP.Description" = "Gelişmiş izlenme korumamız reklamların sizi takip etmesini önlüyor. Daha fazla takip kodunu, reklamı ve açılır pencereyi engellemek isterseniz “sıkı” korumayı seçebilirsiniz.";
 
 /* Text for the new ETP settings button */
 "CoverSheet.v24.ETP.Settings.Button" = "Ayarlara git";
@@ -727,9 +727,6 @@
 /* Title for the button that marks a reading list item as unread */
 "Mark as Unread" = "Okunmadı olarak işaretle";
 
-/* Long label for the add bookmark button displayed in the menu. Pressing this button bookmarks the current page. */
-"Menu.AddBookmark.AlternateLabel.v99" = "Yer imi ekle";
-
 /* Toast displayed to the user after a bookmark has been added. */
 "Menu.AddBookmark.Confirm" = "Yer imi eklendi";
 
@@ -814,9 +811,6 @@
 /* Toast displayed to the user after removing the item to the Shortcuts. */
 "Menu.RemovePin.Confirm2.v99" = "Kestirmelerden kaldırıldı";
 
-/* Long label for the remove from reading list button in the menu. Pressing this button removes the current page from the reading list. */
-"Menu.RemoveReadingList.AlternateLabel.v99" = "Okuma listesinden kaldır";
-
 /* Toast displayed to confirm to the user that his reading list item was correctly removed. */
 "Menu.RemoveReadingList.Confirm.v99" = "Okuma listesinden kaldırıldı";
 
@@ -848,16 +842,16 @@
 "Menu.TrackingProtectionBlockedContent.Title" = "Takip amaçlı içerikler";
 
 /* The title that shows the number of social URLs blocked */
-"Menu.TrackingProtectionBlockedSocial.Title" = "Sosyal takipçiler";
+"Menu.TrackingProtectionBlockedSocial.Title" = "Sosyal takip kodları";
 
 /* The title that shows the number of cross-site URLs blocked */
-"Menu.TrackingProtectionCrossSiteTrackers.Title" = "Siteler arası takipçiler";
+"Menu.TrackingProtectionCrossSiteTrackers.Title" = "Siteler arası takip kodları";
 
 /* The title that shows the number of cryptomining scripts blocked */
 "Menu.TrackingProtectionCryptominersBlocked.Title" = "Kripto madencileri";
 
 /* Description of content trackers. */
-"Menu.TrackingProtectionDescription.ContentTrackers" = "Web siteleri; gizli takipçiler içeren harici reklamlar, videolar ve başka içerikler yükleyebilir. Bunları engellemek sitelerin daha hızlı yüklenmesini sağlayabilir ama bazı düğmeler, formlar ve giriş alanları çalışmayabilir.";
+"Menu.TrackingProtectionDescription.ContentTrackers" = "Web siteleri; gizli takip kodları içeren harici reklamlar, videolar ve başka içerikler yükleyebilir. Bunları engellemek sitelerin daha hızlı yüklenmesini sağlayabilir ama bazı düğmeler, formlar ve giriş alanları çalışmayabilir.";
 
 /* Description of cross-site trackers. */
 "Menu.TrackingProtectionDescription.CrossSiteNew" = "Bu çerezler çevrimiçi olarak yaptığınız şeyler hakkında veriler toplamak için sizi siteden siteye takip eder. Reklamverenler ve analiz şirketleri gibi üçüncü taraflar tarafından ayarlanmışlardır.";
@@ -869,7 +863,7 @@
 "Menu.TrackingProtectionDescription.Fingerprinters" = "Tarayıcınızdaki ve bilgisayarınızdaki ayarlar benzersizdir. Parmak izi toplayıcıları, siz internette gezinirken bu benzersiz ayarları bir araya getirerek profilinizi çıkarır ve sizi takip etmek için bu profili kullanabilir.";
 
 /* Description of social network trackers. */
-"Menu.TrackingProtectionDescription.SocialNetworksNew" = "Sosyal ağlar, eksiksiz ve hedeflenmiş bir profilinizi oluşturmak için başka web sitelerine de kendi takipçilerini yerleştirir. Bu takipçileri engellerseniz sosyal medya şirketleri internette neler yaptığınızı daha az takip edebilir.";
+"Menu.TrackingProtectionDescription.SocialNetworksNew" = "Sosyal ağlar, eksiksiz ve hedeflenmiş bir profilinizi oluşturmak için başka web sitelerine de kendi takip kodlarını yerleştirir. Bu kodları engellerseniz sosyal medya şirketleri internette neler yaptığınızı daha az takip edebilir.";
 
 /* The title that shows the number of fingerprinting scripts blocked */
 "Menu.TrackingProtectionFingerprintersBlocked.Title" = "Parmak izi toplayıcılar";
@@ -1294,9 +1288,6 @@
 /* In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle Shortcuts section on the Firefox homepage on or off */
 "Settings.Home.Option.Shortcuts" = "Kısayollar";
 
-/* In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to turn the Pocket Sponsored Stories on the Firefox homepage on or off */
-"Settings.Home.Option.SponsoredPocket.v103" = "Sponsorlu haberler";
-
 /* In the settings menu, on the Start at Home homepage customization option, this allows users to set this setting to return to the Homepage after four hours of inactivity. */
 "Settings.Home.Option.StartAtHome.AfterFourHours" = "Dört saat hareketsizlikten sonra giriş sayfası";
 
@@ -1559,10 +1550,10 @@
 "Settings.TrackingProtection.ProtectionLevel.Footer.Lock" = "Bir sitenin düzgün çalışmadığını fark ederseniz adres çubuğundaki kilit simgesine dokunarak o site için gelişmiş izlenme korumasını kapatabilirsiniz.";
 
 /* Description for standard level tracker protection */
-"Settings.TrackingProtection.ProtectionLevelStandard.Description" = "Web sitelerinin düzgün çalışması için bazı takipçilere izin verir.";
+"Settings.TrackingProtection.ProtectionLevelStandard.Description" = "Web sitelerinin düzgün çalışması için reklam takibine kısmen izin verir.";
 
 /* Description for strict level tracker protection */
-"Settings.TrackingProtection.ProtectionLevelStrict.Description" = "Daha fazla takipçiyi, reklamı ve açılır pencereyi engeller. Sayfalar daha hızlı yüklenir ama bazı işlevler çalışmayabilir.";
+"Settings.TrackingProtection.ProtectionLevelStrict.Description" = "Daha fazla takip kodunu, reklamı ve açılır pencereyi engeller. Sayfalar daha hızlı yüklenir ama bazı işlevler çalışmayabilir.";
 
 /* Title for tracking protection options section where level can be selected. */
 "Settings.TrackingProtection.ProtectionLevelTitle" = "KORUMA DÜZEYİ";
