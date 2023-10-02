@@ -149,7 +149,7 @@
 "Changes font type." = "更改字体。";
 
 /* The button to open a new tab with the copied link */
-"ClipboardToast.GoToCopiedLink.Button" = "转到";
+"ClipboardToast.GoToCopiedLink.Button" = "前往";
 
 /* Message displayed when the user has a copied link on the clipboard */
 "ClipboardToast.GoToCopiedLink.Title" = "转到复制的链接？";
@@ -224,7 +224,7 @@
 "CoverSheet.v24.ETP.Description" = "内置的增强型跟踪保护，能够阻止广告在网上跟踪您。开启“严格”模式则可拦截更多跟踪器和弹窗。";
 
 /* Text for the new ETP settings button */
-"CoverSheet.v24.ETP.Settings.Button" = "转至设置";
+"CoverSheet.v24.ETP.Settings.Button" = "前往设置";
 
 /* Title for the new ETP mode i.e. standard vs strict */
 "CoverSheet.v24.ETP.Title" = "保护不受广告跟踪";
@@ -356,7 +356,7 @@
 "FirefoxHomepage.ContextualMenu.Settings.v101" = "设置";
 
 /* The title for the Sponsored Content context menu action for sponsored tiles in the Firefox home page shortcuts section. Clicking this brings the users to a support page where users can learn more about Sponsored content and how it works. */
-"FirefoxHomepage.ContextualMenu.SponsoredContent.v101" = "我们的赞助商﹠您的隐私";
+"FirefoxHomepage.ContextualMenu.SponsoredContent.v101" = "我们的赞助商＆您的隐私";
 
 /* Accessibility action title to open the synced tab for tab pickup on the Firefox homepage in the Jump Back In section. */
 "FirefoxHomepage.JumpBackIn.TabPickup.OpenTab.A11y.v106" = "打开同步的标签页";
@@ -727,9 +727,6 @@
 /* Title for the button that marks a reading list item as unread */
 "Mark as Unread" = "标记为未读";
 
-/* Long label for the add bookmark button displayed in the menu. Pressing this button bookmarks the current page. */
-"Menu.AddBookmark.AlternateLabel.v99" = "添加书签";
-
 /* Toast displayed to the user after a bookmark has been added. */
 "Menu.AddBookmark.Confirm" = "书签已添加";
 
@@ -813,9 +810,6 @@
 
 /* Toast displayed to the user after removing the item to the Shortcuts. */
 "Menu.RemovePin.Confirm2.v99" = "已从快捷方式移除";
-
-/* Long label for the remove from reading list button in the menu. Pressing this button removes the current page from the reading list. */
-"Menu.RemoveReadingList.AlternateLabel.v99" = "从阅读列表移除";
 
 /* Toast displayed to confirm to the user that his reading list item was correctly removed. */
 "Menu.RemoveReadingList.Confirm.v99" = "已从阅读列表移除";
@@ -1293,9 +1287,6 @@
 
 /* In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle Shortcuts section on the Firefox homepage on or off */
 "Settings.Home.Option.Shortcuts" = "快捷方式";
-
-/* In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to turn the Pocket Sponsored Stories on the Firefox homepage on or off */
-"Settings.Home.Option.SponsoredPocket.v103" = "赞助内容";
 
 /* In the settings menu, on the Start at Home homepage customization option, this allows users to set this setting to return to the Homepage after four hours of inactivity. */
 "Settings.Home.Option.StartAtHome.AfterFourHours" = "四小时未使用则回到主页";
