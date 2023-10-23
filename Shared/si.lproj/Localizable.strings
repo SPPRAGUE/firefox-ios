@@ -175,6 +175,9 @@
 /* The label text in the Button Toast for switching to a fresh New Tab. */
 "ContextMenu.ButtonToast.NewTabOpened.LabelText" = "නව පටිත්තක් විවෘතයි";
 
+/* The label text in the Button Toast for switching to a fresh New Tab. */
+"ContextMenu.ButtonToast.NewTabOpened.LabelText.v114" = "නව පටිත්තක් විවෘතයි";
+
 /* Context menu item for copying an image to the clipboard */
 "ContextMenu.CopyImageButtonTitle" = "රූපයේ පිටපතක්";
 
@@ -389,7 +392,7 @@
 "fxa.signin.qr-link-instruction" = "පරිගණකයෙහි ෆයර්ෆොක්ස් විවෘත කර firefox.com/pair වෙත යන්න";
 
 /* FxA sign in view qr code scan button */
-"fxa.signin.ready-to-scan" = "පරිලෝකනයට සූදානම්";
+"fxa.signin.ready-to-scan" = "පරිලෝකනයට ඔබන්න";
 
 /* FxA sign in view email login button */
 "fxa.signin.use-email-instead" = "වි-තැපෑල යොදාගන්න";
@@ -446,7 +449,7 @@
 "HistoryPanel.EmptyState.Title" = "මෑතදී ගොඩවැදුණු වියමන අඩවි මෙහි පෙන්වනු ඇත.";
 
 /* Description for the empty synced tabs null state in the History Panel */
-"HistoryPanel.EmptySyncedTabsNullState.Description" = "වෙනත් උපාංගවලින් ඔබගේ පටිති මෙහි පෙන්වයි.";
+"HistoryPanel.EmptySyncedTabsNullState.Description" = "ඔබගේ වෙනත් උපාංගවල පටිති මෙහි පෙන්වයි.";
 
 /* Description for the empty synced tabs 'not signed in' state in the History Panel */
 "HistoryPanel.EmptySyncedTabsPanelNotSignedInState.Description" = "වෙනත් උපාංගයන්ගෙන් පටිති ලේඛනය බැලිමට ඇතුළු වන්න.";
@@ -602,7 +605,7 @@
 "LibraryPanel.History.ClearGroupedTabsTitle.v100" = "%@ හි සියළුම අඩවි මකන්නද?";
 
 /* Within the History Panel, users can open an action menu to clear recent history. */
-"LibraryPanel.History.ClearHistoryMenuTitle.v100" = "ඉතිහාසය (අන් උපාංග වලින් සමමුහූර්ත ඉතිහාසය ද), දත්තකඩ හා වෙනත් පිරික්සුම් දත්ත ඉවත් කරයි.";
+"LibraryPanel.History.ClearHistoryMenuTitle.v100" = "ඉතිහාසය (අනෙකුත් උපාංග වලින් සමමුහූර්ත ඉතිහාසය ද), දත්තකඩ හා වෙනත් පිරික්සුම් දත්ත ඉවත් කරයි.";
 
 /* Within the history panel, a user can navigate into a screen with only grouped history items. Within that screen, a user can now swipe to delete a single item in the list. This label informs the user of a deletion action on the item. */
 "LibraryPanel.History.DeleteGroupedItem.v104" = "මකන්න";
@@ -644,7 +647,7 @@
 "Logins.DevicePasscodeRequired.LearnMoreButtonTitle" = "තව දැනගන්න";
 
 /* Message shown when you enter Logins & Passwords without having a device passcode set. */
-"Logins.DevicePasscodeRequired.Message" = "පිවිසුම් හා මුරපද සුරැකීමට සහ ස්වයං පිරවුමට, මුහුණු හැඳු., ස්පර්ශ හැඳු. හෝ උපාංග මුර කේතයක් සබල කරන්න.";
+"Logins.DevicePasscodeRequired.Message" = "පිවිසුම් හා මුරපද සුරැකීමට සහ ස්වයං පිරවුමට; මුහුණක හැඳු., ස්පර්ශ හැඳු. හෝ උපාංගයේ මුර කේතයක් සබල කරන්න.";
 
 /* Title of the Continue button. */
 "Logins.Onboarding.ContinueButtonTitle" = "ඉදිරියට";
@@ -723,9 +726,6 @@
 
 /* Title for the button that marks a reading list item as unread */
 "Mark as Unread" = "නොකියවූ බව යොදන්න";
-
-/* Long label for the add bookmark button displayed in the menu. Pressing this button bookmarks the current page. */
-"Menu.AddBookmark.AlternateLabel.v99" = "පොත්යොමුවක් යොදන්න";
 
 /* Toast displayed to the user after a bookmark has been added. */
 "Menu.AddBookmark.Confirm" = "පොත්යොමුව එක් කෙරිණි";
@@ -811,9 +811,6 @@
 /* Toast displayed to the user after removing the item to the Shortcuts. */
 "Menu.RemovePin.Confirm2.v99" = "කෙටිමං වලින් ඉවත් කෙරිණි";
 
-/* Long label for the remove from reading list button in the menu. Pressing this button removes the current page from the reading list. */
-"Menu.RemoveReadingList.AlternateLabel.v99" = "කියවීමේ ලේඛනයෙන් ඉවත් කරන්න";
-
 /* Toast displayed to confirm to the user that his reading list item was correctly removed. */
 "Menu.RemoveReadingList.Confirm.v99" = "කියවීමේ ලේඛනයෙන් ඉවත් කෙරිණි";
 
@@ -836,7 +833,7 @@
 "Menu.Toolbar.Home.AccessibilityLabel.v99" = "මුල";
 
 /* String to let users know the site verifier, where the placeholder represents the SSL certificate signer. */
-"Menu.TrackingProtection.Details.Verifier" = "තහවුරු කළේ: %@";
+"Menu.TrackingProtection.Details.Verifier" = "සත්‍යාපනය: %@";
 
 /* The title for tracking protection settings */
 "Menu.TrackingProtection.ProtectionSettings.Title" = "රැකවරණ සැකසුම්";
@@ -1022,7 +1019,7 @@
 "Search" = "සොයන්න";
 
 /* The text shown in the URL bar on about:home */
-"Search or enter address" = "ලිපිනය යොදන්න හෝ සොයන්න";
+"Search or enter address" = "ලිපිනය ලියන්න හෝ සොයන්න";
 
 /* Search suggestion cell label that allows user to switch to tab which they searched for in url bar */
 "Search.Awesomebar.SwitchToTab" = "පටිත්තට මාරුවන්න";
@@ -1103,7 +1100,7 @@
 "SendTo.NavBar.Title" = "පටිත්ත යවන්න";
 
 /* Error message shown in the remote tabs panel */
-"SendTo.NoDevicesFound.Message" = "සමමුහූර්ත කිරීමට ඔබ මෙම ෆයර්ෆොක්ස් ගිණුමට වෙනත් කිසිදු උපාංගයක් සම්බන්ධ කර නැත.";
+"SendTo.NoDevicesFound.Message" = "සමමුහූර්තය සඳහා ඔබ මෙම ෆයර්ෆොක්ස් ගිණුමට වෙනත් කිසිදු උපාංගයක් සම්බන්ධ කර නැත.";
 
 /* See http://mzl.la/1ISlXnU */
 "SendTo.NotSignedIn.Message" = "ෆයර්ෆොක්ස් විවෘත කර, සැකසුම් වෙත ගොස් ඉදිරියට යාමට පිවිසෙන්න.";
@@ -1285,9 +1282,6 @@
 /* In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle Shortcuts section on the Firefox homepage on or off */
 "Settings.Home.Option.Shortcuts" = "කෙටිමං";
 
-/* In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to turn the Pocket Sponsored Stories on the Firefox homepage on or off */
-"Settings.Home.Option.SponsoredPocket.v103" = "අනුග්‍රහය ලද කතා";
-
 /* In the settings menu, on the Start at Home homepage customization option, this allows users to set this setting to return to the Homepage after four hours of inactivity. */
 "Settings.Home.Option.StartAtHome.AfterFourHours" = "පැය හතරක නිෂ්ක්‍රියාවෙන් පසු මුල් පිටුව";
 
@@ -1439,7 +1433,7 @@
 "Settings.Passwords.FingerPrintReason.v103" = "දැන් මුරපද වෙත ප්‍රවේශ වීමට ඔබගේ ඇඟිලි සලකුණ යොදා ගන්න.";
 
 /* Message shown when you enter Passwords screen for the first time. It explains how password are protected in the Firefox for iOS application. */
-"Settings.Passwords.OnboardingMessage.v103" = "ඔබගේ මුරපද දැන් මුහුණු හැඳු., ස්පර්ශ හැඳු. හෝ උපාංග මුර කේතයකින් සුරක්‍ෂිතයි.";
+"Settings.Passwords.OnboardingMessage.v103" = "ඔබගේ මුරපද දැන් මුහුණේ හැඳු., ස්පර්ශ හැඳු. හෝ උපාංගයේ මුර කේතයකින් සුරක්‍ෂිතයි.";
 
 /* Setting that appears in the Passwords screen to enable the built-in password manager so users can save their passwords. */
 "Settings.Passwords.SavePasswords.v103" = "මුරපද සුරකින්න";
@@ -1528,6 +1522,9 @@
 /* Dismiss button for the tracker protection alert. */
 "Settings.TrackingProtection.Alert.Button" = "හරි, තේරුණා";
 
+/* Decription for the tracker protection alert. */
+"Settings.TrackingProtection.Alert.Description" = "අඩවියක් අපේක්‍ෂිත පරිදි වැඩ නොකරයි නම්, ලිපින තීරුවේ තිබෙන අගුල මත තට්ටු කර එම පිටුව සඳහා දියුණු කළ ලුහුබැඳීමේ රැකවරණය අක්‍රිය කරන්න.";
+
 /* Title for the tracker protection alert. */
 "Settings.TrackingProtection.Alert.Title" = "අවධානය!";
 
@@ -1539,6 +1536,12 @@
 
 /* Additional information about your Enhanced Tracking Protection */
 "Settings.TrackingProtection.ProtectionCellFooter" = "ඉලක්කගත දැන්වීම් අඩු කරන අතර දැන්වීම්කරුවන් ඔබගේ පිරික්සීම් ලුහුබැඳීම නතර කිරීමට උපකාරී වේ.";
+
+/* Footer information for tracker protection level. */
+"Settings.TrackingProtection.ProtectionLevel.Footer" = "අඩවියක් අපේක්‍ෂිත පරිදි වැඩ නොකරයි නම්, ලිපින තීරුවේ තිබෙන අගුල මත තට්ටු කර එම පිටුව සඳහා දියුණු කළ ලුහුබැඳීමේ රැකවරණය අක්‍රිය කරන්න.";
+
+/* Footer information for tracker protection level. */
+"Settings.TrackingProtection.ProtectionLevel.Footer.Lock" = "අඩවියක් අපේක්‍ෂිත පරිදි වැඩ නොකරයි නම්, ලිපින තීරුවේ තිබෙන අගුල මත තට්ටු කර එම පිටුව සඳහා දියුණු කළ ලුහුබැඳීමේ රැකවරණය අක්‍රිය කරන්න.";
 
 /* Description for standard level tracker protection */
 "Settings.TrackingProtection.ProtectionLevelStandard.Description" = "අඩවි නිසි ලෙස ක්‍රියාත්මක වීමට ලුහුබැඳීමේ දැන්වීම් කිහිපයකට ඉඩ දෙයි.";
@@ -1562,7 +1565,7 @@
 "Settings.TrackingProtectionOption.BlockListStrict" = "දැඩි";
 
 /* Settings option to specify that Tracking Protection is on */
-"Settings.TrackingProtectionOption.NormalBrowsingLabelOn" = "වැඩිදියුණු කළ ලුහුබැඳීමේ රැකවරණය";
+"Settings.TrackingProtectionOption.NormalBrowsingLabelOn" = "දියුණු කළ ලුහුබැඳීමේ රැකවරණය";
 
 /* Title of link to help page to find out how to solve Sync issues */
 "Settings.TroubleShootSync.Title" = "දොස් සෙවීම";
@@ -1697,7 +1700,7 @@
 "The page could not be displayed in Reader View." = "පිටුව කියවන දැක්මෙහි දර්ශනය කළ නොහැකිය.";
 
 /* Error message in the remote tabs panel */
-"There was a problem accessing tabs from your other devices. Try again in a few moments." = "ඔබගේ අනෙකුත් උපාංගවලින් පටිති වෙත ප්‍රවේශ වීමේ ගැටළුවක් මතු විය. සුළු මොහොතකින් නැවත උත්සාහ කරන්න.";
+"There was a problem accessing tabs from your other devices. Try again in a few moments." = "ඔබගේ අනෙකුත් උපාංගවල පටිති වෙත ප්‍රවේශ වීමේ ගැටළුවක් මතු විය. සුළු මොහොතකින් නැවත උත්සාහ කරන්න.";
 
 /* Error displayed when reader mode cannot be enabled */
 "There was an error converting the page" = "පිටුව හැරවීමේදී දෝෂයක් ඇති විය";
@@ -1775,7 +1778,7 @@
 "Wallpaper.Error.Dismiss.v106" = "අවලංගු";
 
 /* Action displayed when changing wallpaper fails. */
-"Wallpaper.Error.TryAgain.v106" = "යළි උත්සාහය";
+"Wallpaper.Error.TryAgain.v106" = "නැවත";
 
 /* Accessibility label for the main web content view */
 "Web content" = "වියමන අන්තර්ගතය";
@@ -1796,7 +1799,7 @@
 "Yesterday" = "ඊයේ";
 
 /* Error message in the remote tabs panel */
-"You don’t have any tabs open in Firefox on your other devices." = "ඔබගේ අනෙකුත් උපාංගවල ෆයර්ෆොක්ස් හි පටිති කිසිවක් විවෘත කර නැත.";
+"You don’t have any tabs open in Firefox on your other devices." = "ඔබගේ අනෙකුත් උපාංගවල ෆයර්ෆොක්ස් පටිති කිසිවක් විවෘත කර නැත.";
 
 /* Your Rights settings section title */
 "Your Rights" = "ඔබගේ අයිතීන්";
