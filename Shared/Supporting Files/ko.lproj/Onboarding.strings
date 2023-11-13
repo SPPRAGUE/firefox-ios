@@ -19,17 +19,11 @@
 /* String used to describes what Firefox is on the first onboarding page in our Onboarding screens. */
 "Onboarding.IntroDescriptionPart2.v114" = "모두를 위한 더 나은 인터넷을 약속합니다.";
 
-/* Describes an action on some of the Onboarding screen, including the wallpaper onboarding screen. This string will be on a button so user can skip that onboarding page. */
-"Onboarding.LaterAction.v114" = "나중에";
-
 /* String used to describe the option to continue to ask for the notification permission in Firefox Onboarding screens. */
 "Onboarding.Notification.Continue.Action.v114" = "계속";
 
 /* String used to describe the description of the notification onboarding page in our Onboarding screens. Placeholder is for the app name. */
 "Onboarding.Notification.Description.v114" = "기기 간에 탭을 보내고 %@를 최대한 활용하는 방법에 대한 팁을 얻으세요.";
-
-/* String used to describe the option to skip the notification permission in Firefox Onboarding screens. */
-"Onboarding.Notification.Skip.Action.v114" = "나중에";
 
 /* String used to describe the title of the notification onboarding page in our Onboarding screens. Placeholder is for the app name. */
 "Onboarding.Notification.Title.v114" = "알림은 %@로 더 많은 일을 할 수 있도록 도와줍니다.";
@@ -75,9 +69,6 @@
 
 /* String used to describes the description of what Firefox is on the welcome onboarding page for current version in our Onboarding screens. Placeholder is for the app name. */
 "Onboarding.Welcome.Description.TreatementA.v114" = "%@는 이익보다 사람을 우선시하고 브라우징할 때 개인 정보를 보호합니다.";
-
-/* String used to describes the description of what Firefox is on the welcome onboarding page for current version in our Onboarding screens. Placeholder is for the app name. */
-"Onboarding.Welcome.Description.v114" = "%@는 이익보다 사람을 우선시하고 브라우징할 때 개인 정보를 보호합니다.";
 
 /* String used to describe the title of link button is on the welcome onboarding page for current version in our Onboarding screens. */
 "Onboarding.Welcome.Link.Action.v114" = "개인정보 보호정책에서 자세히 알아보기";
