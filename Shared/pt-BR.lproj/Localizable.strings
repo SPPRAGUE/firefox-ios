@@ -83,7 +83,7 @@
 "Back" = "Voltar";
 
 /* Block pop-up windows setting */
-"Block Pop-up Windows" = "Bloquear janelas pop-up";
+"Block Pop-up Windows" = "Bloquear abertura de janelas ou abas";
 
 /* The label for the Title field when editing a bookmark */
 "Bookmark.DetailFieldTitle.Label" = "Título";
@@ -647,7 +647,7 @@
 "Logins.DevicePasscodeRequired.LearnMoreButtonTitle" = "Saiba mais";
 
 /* Message shown when you enter Logins & Passwords without having a device passcode set. */
-"Logins.DevicePasscodeRequired.Message" = "Para salvar e preencher automaticamente contas e senhas, ative o Face ID, Touch ID ou uma senha de dispositivo.";
+"Logins.DevicePasscodeRequired.Message" = "Para salvar e preencher automaticamente contas e senhas, ative o Face ID, Touch ID ou um código de acesso do dispositivo.";
 
 /* Title of the Continue button. */
 "Logins.Onboarding.ContinueButtonTitle" = "Continuar";
@@ -656,7 +656,7 @@
 "Logins.Onboarding.LearnMoreButtonTitle" = "Saiba mais";
 
 /* Warning message shown when you try to enable or use native AutoFill without a device passcode setup */
-"Logins.PasscodeRequirement.Warning" = "Para usar o recurso de preenchimento automático do Firefox, você deve ter ativada uma senha de dispositivo.";
+"Logins.PasscodeRequirement.Warning" = "Para usar o recurso de preenchimento automático do Firefox, você deve ter ativado um código de acesso do dispositivo.";
 
 /* Label displaying welcome view tagline under the title */
 "Logins.WelcomeView.Tagline" = "Tenha suas senhas em qualquer lugar";
@@ -726,9 +726,6 @@
 
 /* Title for the button that marks a reading list item as unread */
 "Mark as Unread" = "Marcar como não lido";
-
-/* Long label for the add bookmark button displayed in the menu. Pressing this button bookmarks the current page. */
-"Menu.AddBookmark.AlternateLabel.v99" = "Adicionar favorito";
 
 /* Toast displayed to the user after a bookmark has been added. */
 "Menu.AddBookmark.Confirm" = "Favorito adicionado";
@@ -813,9 +810,6 @@
 
 /* Toast displayed to the user after removing the item to the Shortcuts. */
 "Menu.RemovePin.Confirm2.v99" = "Removido dos atalhos";
-
-/* Long label for the remove from reading list button in the menu. Pressing this button removes the current page from the reading list. */
-"Menu.RemoveReadingList.AlternateLabel.v99" = "Remover da lista de leitura";
 
 /* Toast displayed to confirm to the user that his reading list item was correctly removed. */
 "Menu.RemoveReadingList.Confirm.v99" = "Removido da lista de leitura";
@@ -1294,9 +1288,6 @@
 /* In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle Shortcuts section on the Firefox homepage on or off */
 "Settings.Home.Option.Shortcuts" = "Atalhos";
 
-/* In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to turn the Pocket Sponsored Stories on the Firefox homepage on or off */
-"Settings.Home.Option.SponsoredPocket.v103" = "Histórias patrocinadas";
-
 /* In the settings menu, on the Start at Home homepage customization option, this allows users to set this setting to return to the Homepage after four hours of inactivity. */
 "Settings.Home.Option.StartAtHome.AfterFourHours" = "Tela inicial após quatro horas de inatividade";
 
@@ -1448,7 +1439,7 @@
 "Settings.Passwords.FingerPrintReason.v103" = "Use agora sua digital para acessar senhas.";
 
 /* Message shown when you enter Passwords screen for the first time. It explains how password are protected in the Firefox for iOS application. */
-"Settings.Passwords.OnboardingMessage.v103" = "Suas senhas agora estão protegidas por Face ID, Touch ID ou uma senha de dispositivo.";
+"Settings.Passwords.OnboardingMessage.v103" = "Suas senhas agora estão protegidas por Face ID, Touch ID ou um código de acesso do dispositivo.";
 
 /* Setting that appears in the Passwords screen to enable the built-in password manager so users can save their passwords. */
 "Settings.Passwords.SavePasswords.v103" = "Salvar senhas";
