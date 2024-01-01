@@ -175,6 +175,9 @@
 /* The label text in the Button Toast for switching to a fresh New Tab. */
 "ContextMenu.ButtonToast.NewTabOpened.LabelText" = "เปิดแท็บใหม่แล้ว";
 
+/* The label text in the Button Toast for switching to a fresh New Tab. */
+"ContextMenu.ButtonToast.NewTabOpened.LabelText.v114" = "เปิดแท็บใหม่แล้ว";
+
 /* Context menu item for copying an image to the clipboard */
 "ContextMenu.CopyImageButtonTitle" = "คัดลอกภาพ";
 
@@ -724,9 +727,6 @@
 /* Title for the button that marks a reading list item as unread */
 "Mark as Unread" = "ทำเครื่องหมายว่ายังไม่ได้อ่าน";
 
-/* Long label for the add bookmark button displayed in the menu. Pressing this button bookmarks the current page. */
-"Menu.AddBookmark.AlternateLabel.v99" = "เพิ่มที่คั่นหน้า";
-
 /* Toast displayed to the user after a bookmark has been added. */
 "Menu.AddBookmark.Confirm" = "เพิ่มที่คั่นหน้าแล้ว";
 
@@ -810,9 +810,6 @@
 
 /* Toast displayed to the user after removing the item to the Shortcuts. */
 "Menu.RemovePin.Confirm2.v99" = "ลบออกจากคำสั่งลัด";
-
-/* Long label for the remove from reading list button in the menu. Pressing this button removes the current page from the reading list. */
-"Menu.RemoveReadingList.AlternateLabel.v99" = "เอาออกจากรายการอ่าน";
 
 /* Toast displayed to confirm to the user that his reading list item was correctly removed. */
 "Menu.RemoveReadingList.Confirm.v99" = "เอาออกจากรายการอ่านแล้ว";
@@ -1013,7 +1010,7 @@
 "ScanQRCode.Error.OK.Button" = "ตกลง";
 
 /* Text for the instructions label, displayed in the QR scanner view */
-"ScanQRCode.Instructions.Label" = "จัดตำแหน่งรหัส QR ให้อยู่ภายในกรอบเพื่อสแกน";
+"ScanQRCode.Instructions.Label" = "จัดตำแหน่งคิวอาร์โค้ดให้อยู่ภายในกรอบเพื่อสแกน";
 
 /* Text of the prompt that is shown to the user when the data is invalid */
 "ScanQRCode.InvalidDataError.Message" = "ข้อมูลไม่ถูกต้อง";
@@ -1022,7 +1019,7 @@
 "ScanQRCode.PermissionError.Message.v100" = "ไปที่ ‘การตั้งค่า’ ของอุปกรณ์ > ‘Firefox’ และอนุญาตให้ Firefox เข้าถึงกล้อง";
 
 /* Title for the QR code scanner view. */
-"ScanQRCode.View.Title" = "สแกนรหัส QR";
+"ScanQRCode.View.Title" = "สแกนคิวอาร์โค้ด";
 
 /* Open search section of settings */
 "Search" = "ค้นหา";
@@ -1290,9 +1287,6 @@
 
 /* In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle Shortcuts section on the Firefox homepage on or off */
 "Settings.Home.Option.Shortcuts" = "ทางลัด";
-
-/* In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to turn the Pocket Sponsored Stories on the Firefox homepage on or off */
-"Settings.Home.Option.SponsoredPocket.v103" = "เรื่องราวที่ได้รับการสนับสนุน";
 
 /* In the settings menu, on the Start at Home homepage customization option, this allows users to set this setting to return to the Homepage after four hours of inactivity. */
 "Settings.Home.Option.StartAtHome.AfterFourHours" = "หน้าแรกหลังจากไม่มีการใช้งานเป็นเวลา 4 ชั่วโมง";
