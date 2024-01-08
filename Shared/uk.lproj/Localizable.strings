@@ -107,7 +107,7 @@
 "Bookmarks.Folder.Label" = "Тека";
 
 /* A label indicating all bookmarks grouped under the category 'Desktop Bookmarks'. */
-"Bookmarks.Menu.DesktopBookmarks" = "Закладки комп’ютера";
+"Bookmarks.Menu.DesktopBookmarks" = "Закладки комп'ютера";
 
 /* The button to create a new bookmark */
 "Bookmarks.NewBookmark.Label" = "Нова закладка";
@@ -314,7 +314,7 @@
 "ErrorPages.CertWarning.Description" = "Власник %@ налаштував свій вебсайт неналежним чином. Для захисту вашої інформації від викрадання, Firefox не з'єднався з цим вебсайтом.";
 
 /* Title on the certificate error page */
-"ErrorPages.CertWarning.Title" = "Це недовірене з’єднання";
+"ErrorPages.CertWarning.Title" = "Це недовірене з'єднання";
 
 /* Label for button to go back from the error page */
 "ErrorPages.GoBack.Button" = "Назад";
@@ -383,7 +383,7 @@
 "FxA.ManageAccount" = "Керувати обліковим записом і пристроями";
 
 /* Label when no internet is present */
-"FxA.NoInternetConnection" = "Немає з’єднання з Інтернетом";
+"FxA.NoInternetConnection" = "Немає з'єднання з Інтернетом";
 
 /* FxA sign in view subtitle */
 "fxa.signin.camera-signin" = "Увійдіть за допомогою камери";
@@ -449,7 +449,7 @@
 "HistoryPanel.EmptyState.Title" = "Тут з'являтимуться ваші останні відвідані сторінки.";
 
 /* Description for the empty synced tabs null state in the History Panel */
-"HistoryPanel.EmptySyncedTabsNullState.Description" = "Ваші вкладки з інших пристроїв з’являються тут.";
+"HistoryPanel.EmptySyncedTabsNullState.Description" = "Тут з'являтимуться ваші вкладки з інших пристроїв.";
 
 /* Description for the empty synced tabs 'not signed in' state in the History Panel */
 "HistoryPanel.EmptySyncedTabsPanelNotSignedInState.Description" = "Увійдіть, щоб переглядати список вкладок з інших ваших пристроїв.";
@@ -727,9 +727,6 @@
 /* Title for the button that marks a reading list item as unread */
 "Mark as Unread" = "Позначити непрочитаним";
 
-/* Long label for the add bookmark button displayed in the menu. Pressing this button bookmarks the current page. */
-"Menu.AddBookmark.AlternateLabel.v99" = "Додати закладку";
-
 /* Toast displayed to the user after a bookmark has been added. */
 "Menu.AddBookmark.Confirm" = "Закладку додано";
 
@@ -813,9 +810,6 @@
 
 /* Toast displayed to the user after removing the item to the Shortcuts. */
 "Menu.RemovePin.Confirm2.v99" = "Вилучено з ярликів";
-
-/* Long label for the remove from reading list button in the menu. Pressing this button removes the current page from the reading list. */
-"Menu.RemoveReadingList.AlternateLabel.v99" = "Прибрати зі списку читання";
 
 /* Toast displayed to confirm to the user that his reading list item was correctly removed. */
 "Menu.RemoveReadingList.Confirm.v99" = "Вилучено зі списку читання";
@@ -947,10 +941,10 @@
 "Privacy Policy" = "Політика приватності";
 
 /* This is the value for a label that indicates if a user is on an unencrypted website. */
-"ProtectionStatus.NotSecure" = "Незахищене з’єднання";
+"ProtectionStatus.NotSecure" = "Незахищене з'єднання";
 
 /* This is the value for a label that indicates if a user is on a secure https connection. */
-"ProtectionStatus.Secure" = "Захищене з’єднання";
+"ProtectionStatus.Secure" = "Захищене з'єднання";
 
 /* Title for quick-search engines settings section. */
 "Quick-Search Engines" = "Швидкі засоби пошуку";
@@ -1293,9 +1287,6 @@
 
 /* In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle Shortcuts section on the Firefox homepage on or off */
 "Settings.Home.Option.Shortcuts" = "Ярлики";
-
-/* In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to turn the Pocket Sponsored Stories on the Firefox homepage on or off */
-"Settings.Home.Option.SponsoredPocket.v103" = "Матеріали від спонсорів";
 
 /* In the settings menu, on the Start at Home homepage customization option, this allows users to set this setting to return to the Homepage after four hours of inactivity. */
 "Settings.Home.Option.StartAtHome.AfterFourHours" = "Домівка через чотири години бездіяльності";
