@@ -694,9 +694,6 @@
 /* Placeholder test for search box in logins list view. */
 "LoginsList.LoginsListSearchPlaceholder" = "Hledat";
 
-/* Label shown when there are no logins to list */
-"LoginsList.NoLoginsFound.Description" = "Tady se zobrazí uložené přihlašovací údaje. Pokud jste si přihlašovací údaje uložili do Firefoxu na jiném zařízení, přihlaste se ke svému účtu Firefoxu.";
-
 /* Label shown when there are no logins saved */
 "LoginsList.NoLoginsFound.Title" = "Nenalezeny žádné přihlašovací údaje";
 
@@ -726,9 +723,6 @@
 
 /* Title for the button that marks a reading list item as unread */
 "Mark as Unread" = "Označit jako nepřečtené";
-
-/* Long label for the add bookmark button displayed in the menu. Pressing this button bookmarks the current page. */
-"Menu.AddBookmark.AlternateLabel.v99" = "Přidat záložku";
 
 /* Toast displayed to the user after a bookmark has been added. */
 "Menu.AddBookmark.Confirm" = "Záložka přidána";
@@ -814,9 +808,6 @@
 /* Toast displayed to the user after removing the item to the Shortcuts. */
 "Menu.RemovePin.Confirm2.v99" = "Odebráno ze zkratek";
 
-/* Long label for the remove from reading list button in the menu. Pressing this button removes the current page from the reading list. */
-"Menu.RemoveReadingList.AlternateLabel.v99" = "Odebrat ze seznamu ke čtení";
-
 /* Toast displayed to confirm to the user that his reading list item was correctly removed. */
 "Menu.RemoveReadingList.Confirm.v99" = "Odebráno ze seznamu ke čtení";
 
@@ -876,6 +867,9 @@
 
 /* The title for the option to view the What's new page. */
 "Menu.WhatsNew.Title" = "Co je nového";
+
+/* Label for the zoom page button in the menu, used to show the Zoom Page bar. The placeholder shows the current zoom level in percent. */
+"Menu.ZoomPage.Title.v113" = "Zvětšení stránky (%@)";
 
 /* Accessibility label for Mobile Device image in remote tabs list */
 "mobile device" = "mobilní zařízení";
@@ -1068,15 +1062,6 @@
 
 /* The confirmation button */
 "Search.ThirdPartyEngines.OK" = "OK";
-
-/* Accessibility label for default search engine setting. */
-"SearchSettings.Accessibility.DefaultSearchEngine.v106" = "Výchozí vyhledávač";
-
-/* Title for default search engine settings section. */
-"SearchSettings.Title.DefaultSearchEngine.v106" = "Výchozí vyhledávač";
-
-/* Navigation title for search settings. */
-"SearchSettings.Title.Search.v106" = "Vyhledávání";
 
 /* Message displayed in the crash dialog above the buttons used to select when sending reports */
 "Send a crash report so Mozilla can fix the problem?" = "Odeslat hlášení o pádu Mozille, aby mohla problém vyřešit?";
@@ -1290,9 +1275,6 @@
 
 /* In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle Shortcuts section on the Firefox homepage on or off */
 "Settings.Home.Option.Shortcuts" = "Zkratky";
-
-/* In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to turn the Pocket Sponsored Stories on the Firefox homepage on or off */
-"Settings.Home.Option.SponsoredPocket.v103" = "Sponzorované články";
 
 /* In the settings menu, on the Start at Home homepage customization option, this allows users to set this setting to return to the Homepage after four hours of inactivity. */
 "Settings.Home.Option.StartAtHome.AfterFourHours" = "Po 4 hodinách nepoužívání domovskou stránku";
@@ -1534,6 +1516,9 @@
 /* Dismiss button for the tracker protection alert. */
 "Settings.TrackingProtection.Alert.Button" = "OK, rozumím";
 
+/* Decription for the tracker protection alert. */
+"Settings.TrackingProtection.Alert.Description" = "Pokud web nefunguje podle očekávání, klepněte na zámek v adresním řádku a vypněte pro danou stránku rozšířenou ochranu proti sledování.";
+
 /* Title for the tracker protection alert. */
 "Settings.TrackingProtection.Alert.Title" = "Pozor!";
 
@@ -1545,6 +1530,12 @@
 
 /* Additional information about your Enhanced Tracking Protection */
 "Settings.TrackingProtection.ProtectionCellFooter" = "Omezuje množství cílených reklam a zabrání inzerentům sledovat vás na internetu.";
+
+/* Footer information for tracker protection level. */
+"Settings.TrackingProtection.ProtectionLevel.Footer" = "Pokud web nefunguje podle očekávání, klepněte na zámek v adresním řádku a vypněte pro danou stránku rozšířenou ochranu proti sledování.";
+
+/* Footer information for tracker protection level. */
+"Settings.TrackingProtection.ProtectionLevel.Footer.Lock" = "Pokud web nefunguje podle očekávání, klepněte na zámek v adresním řádku a vypněte pro danou stránku rozšířenou ochranu proti sledování.";
 
 /* Description for standard level tracker protection */
 "Settings.TrackingProtection.ProtectionLevelStandard.Description" = "Povoluje některé sledující reklamy pro správné fungování stránek.";
