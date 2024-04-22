@@ -166,11 +166,17 @@
 /* The label text in the Button Toast for switching to a fresh New Private Tab. */
 "ContextMenu.ButtonToast.NewPrivateTabOpened.LabelText" = "Nova unghjetta privata aperta";
 
+/* The label text in the Button Toast for switching to a fresh New Private Tab. */
+"ContextMenu.ButtonToast.NewPrivateTabOpened.LabelText.v113" = "Nova unghjetta privata aperta";
+
 /* The button text in the Button Toast for switching to a fresh New Tab. */
 "ContextMenu.ButtonToast.NewTabOpened.ButtonText" = "Affissà";
 
 /* The label text in the Button Toast for switching to a fresh New Tab. */
 "ContextMenu.ButtonToast.NewTabOpened.LabelText" = "Nova unghjetta aperta";
+
+/* The label text in the Button Toast for switching to a fresh New Tab. */
+"ContextMenu.ButtonToast.NewTabOpened.LabelText.v114" = "Nova unghjetta aperta";
 
 /* Context menu item for copying an image to the clipboard */
 "ContextMenu.CopyImageButtonTitle" = "Cupià a fiura";
@@ -342,6 +348,9 @@
 
 /* When a user taps and holds on an item from the Recently Visited section, this label will appear indicating the option to remove that item. */
 "FirefoxHome.RecentHistory.Remove" = "Caccià";
+
+/* Label showing how many pages there is in a search group. %d represents a number */
+"FirefoxHomepage.Common.PagesCount.v112" = "Pagine : %d";
 
 /* The title for the Settings context menu action for sponsored tiles in the Firefox home page shortcuts section. Clicking this brings the users to the Shortcuts Settings. */
 "FirefoxHomepage.ContextualMenu.Settings.v101" = "Preferenze";
@@ -637,9 +646,6 @@
 /* Title of the Learn More button that links to a support page about device passcode requirements. */
 "Logins.DevicePasscodeRequired.LearnMoreButtonTitle" = "Sapene di più";
 
-/* Message shown when you enter Logins & Passwords without having a device passcode set. */
-"Logins.DevicePasscodeRequired.Message" = "Per arregistrà è riempie autumaticamente l’identificazioni di cunnessione è e parolle d’intesa, attivate Face ID, Touch ID o un codice d’accessu per l’apparechju.";
-
 /* Title of the Continue button. */
 "Logins.Onboarding.ContinueButtonTitle" = "Cuntinuà";
 
@@ -685,23 +691,11 @@
 /* Placeholder test for search box in logins list view. */
 "LoginsList.LoginsListSearchPlaceholder" = "Filtrà";
 
-/* Label shown when there are no logins to list */
-"LoginsList.NoLoginsFound.Description" = "L’identificazioni di cunnessione arregistrate seranu affissate quì. S’è vo avete arregistratu e vostre identificazioni di cunnessione Firefox nant’à un altru apparechju, cunnittitevi à u vostru contu Firefox.";
-
-/* Label shown when there are no logins saved */
-"LoginsList.NoLoginsFound.Title" = "Alcuna identificazione di cunnessione trova";
-
 /* Label that appears after the search if there are no logins matching the search */
 "LoginsList.NoMatchingResult.Subtitle" = "Nisunu risultatu currisponde à a vostra ricerca.";
 
-/* Label displayed when a user searches and no matches can be found against the search query */
-"LoginsList.NoMatchingResult.Title" = "Nisuna identificazione di cunnessione currispondente";
-
 /* Title for cancel button for user to stop searching for a particular login */
 "LoginsList.Search.Cancel" = "Abbandunà";
-
-/* Placeholder text for search field */
-"LoginsList.Search.Placeholder" = "Ricercà identificazioni di cunnessione";
 
 /* Label displaying select a password to fill instruction */
 "LoginsList.SelectPassword.Title" = "Selezziunate una parolla d’intesa à riempie";
@@ -717,9 +711,6 @@
 
 /* Title for the button that marks a reading list item as unread */
 "Mark as Unread" = "Marcà cum’è micca lettu";
-
-/* Long label for the add bookmark button displayed in the menu. Pressing this button bookmarks the current page. */
-"Menu.AddBookmark.AlternateLabel.v99" = "Aghjunghje un’indetta";
 
 /* Toast displayed to the user after a bookmark has been added. */
 "Menu.AddBookmark.Confirm" = "Indetta aghjunta";
@@ -805,9 +796,6 @@
 /* Toast displayed to the user after removing the item to the Shortcuts. */
 "Menu.RemovePin.Confirm2.v99" = "Cacciatu da l’accurtatoghji";
 
-/* Long label for the remove from reading list button in the menu. Pressing this button removes the current page from the reading list. */
-"Menu.RemoveReadingList.AlternateLabel.v99" = "Caccià da a lista di lettura";
-
 /* Toast displayed to confirm to the user that his reading list item was correctly removed. */
 "Menu.RemoveReadingList.Confirm.v99" = "Cacciatu da a lista di lettura";
 
@@ -867,6 +855,9 @@
 
 /* The title for the option to view the What's new page. */
 "Menu.WhatsNew.Title" = "Ciò chì hè novu";
+
+/* Label for the zoom page button in the menu, used to show the Zoom Page bar. The placeholder shows the current zoom level in percent. */
+"Menu.ZoomPage.Title.v113" = "Ingrandamentu (%@)";
 
 /* Accessibility label for Mobile Device image in remote tabs list */
 "mobile device" = "apparechju mobile";
@@ -1059,15 +1050,6 @@
 
 /* The confirmation button */
 "Search.ThirdPartyEngines.OK" = "Vai";
-
-/* Accessibility label for default search engine setting. */
-"SearchSettings.Accessibility.DefaultSearchEngine.v106" = "Mutore di ricerca predefinitu";
-
-/* Title for default search engine settings section. */
-"SearchSettings.Title.DefaultSearchEngine.v106" = "Mutore di ricerca predefinitu";
-
-/* Navigation title for search settings. */
-"SearchSettings.Title.Search.v106" = "Ricercà";
 
 /* Message displayed in the crash dialog above the buttons used to select when sending reports */
 "Send a crash report so Mozilla can fix the problem?" = "Mandà un raportu d’accidente per chì Mozilla possa currege u penseru ?";
@@ -1279,9 +1261,6 @@
 /* In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle Shortcuts section on the Firefox homepage on or off */
 "Settings.Home.Option.Shortcuts" = "Accurtatoghji";
 
-/* In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to turn the Pocket Sponsored Stories on the Firefox homepage on or off */
-"Settings.Home.Option.SponsoredPocket.v103" = "Articuli finanziati";
-
 /* In the settings menu, on the Start at Home homepage customization option, this allows users to set this setting to return to the Homepage after four hours of inactivity. */
 "Settings.Home.Option.StartAtHome.AfterFourHours" = "Pagina d’accolta dopu quattru ore d’inattività";
 
@@ -1393,6 +1372,9 @@
 /* Option in settings to show a blank page when you open a new tab */
 "Settings.NewTab.Option.BlankPage" = "Una pagina viota";
 
+/* Option in settings to show your homepage when you open a new tab */
+"Settings.NewTab.Option.Custom" = "Persunalizatu";
+
 /* Option in settings to show Firefox Home when you open a new tab */
 "Settings.NewTab.Option.FirefoxHome" = "Accolta di Firefox";
 
@@ -1484,7 +1466,7 @@
 "Settings.Studies.Toggle.Title" = "Studii";
 
 /* Ddescription that appears in the settings screen to explain what Firefox Sync is useful for. */
-"Settings.Sync.ButtonDescription.v103" = "Cunnittitevi per sincrunizà unghjette, indette, parolle d’intesa è ancu di più";
+"Settings.Sync.ButtonDescription.v103" = "Cunnittitevi per sincrunizà unghjette, indette, parolle d’intesa è ancu di più.";
 
 /* Button label that appears in the settings to prompt the user to sign in to Firefox for iOS sync service to sync and save data. */
 "Settings.Sync.ButtonTitle.v103" = "Sincrunizà è arregistrà i dati";
@@ -1519,6 +1501,9 @@
 /* Dismiss button for the tracker protection alert. */
 "Settings.TrackingProtection.Alert.Button" = "Iè, aghju capitu";
 
+/* Decription for the tracker protection alert. */
+"Settings.TrackingProtection.Alert.Description" = "S’è un situ ùn funziona micca cum’è previstu, appughjate nant’à u lucchettu in a barra d’indirizzu è disattivate a prutezzione rinfurzata contr’à u spiunagiu per sta pagina.";
+
 /* Title for the tracker protection alert. */
 "Settings.TrackingProtection.Alert.Title" = "Fate casu !";
 
@@ -1530,6 +1515,12 @@
 
 /* Additional information about your Enhanced Tracking Protection */
 "Settings.TrackingProtection.ProtectionCellFooter" = "Riduce e publicità sibulate è vi aiuta à impedisce i siti di seguità a vostra navigazione.";
+
+/* Footer information for tracker protection level. */
+"Settings.TrackingProtection.ProtectionLevel.Footer" = "S’è un situ ùn funziona micca cum’è previstu, appughjate nant’à u lucchettu in a barra d’indirizzu è disattivate a prutezzione rinfurzata contr’à u spiunagiu per sta pagina.";
+
+/* Footer information for tracker protection level. */
+"Settings.TrackingProtection.ProtectionLevel.Footer.Lock" = "S’è un situ ùn funziona micca cum’è previstu, appughjate nant’à u lucchettu in a barra d’indirizzu è disattivate a prutezzione rinfurzata contr’à u spiunagiu per sta pagina.";
 
 /* Description for standard level tracker protection */
 "Settings.TrackingProtection.ProtectionLevelStandard.Description" = "Permette qualchì elementu di spiunagiu da e publicità per chì i siti funziuneghjinu currettamente.";
@@ -1545,6 +1536,9 @@
 
 /* Tracking protection settings option for using the basic blocklist. */
 "Settings.TrackingProtectionOption.BasicBlockList" = "Classica (predefinitu)";
+
+/* Tracking protection settings status showing the current option selected. */
+"Settings.TrackingProtectionOption.BasicBlockList.Status" = "Classica";
 
 /* Tracking protection settings option for using the strict blocklist. */
 "Settings.TrackingProtectionOption.BlockListStrict" = "Severa";
