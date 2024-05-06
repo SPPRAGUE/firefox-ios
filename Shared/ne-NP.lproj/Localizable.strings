@@ -577,9 +577,6 @@
 /* Title of the Learn More button that links to a support page about device passcode requirements. */
 "Logins.DevicePasscodeRequired.LearnMoreButtonTitle" = "थप जान्नुहोस्";
 
-/* Message shown when you enter Logins & Passwords without having a device passcode set. */
-"Logins.DevicePasscodeRequired.Message" = "लग इनहरू र पासवर्डहरू बचत गर्न र स्वत: भर्नको लागि, फेस आईडी, टच आईडी वा यन्त्र पासकोड सक्षम गर्नुहोस्।";
-
 /* Title of the Continue button. */
 "Logins.Onboarding.ContinueButtonTitle" = "जारी राख्नुहोस्";
 
@@ -625,23 +622,11 @@
 /* Placeholder test for search box in logins list view. */
 "LoginsList.LoginsListSearchPlaceholder" = "फिल्टर";
 
-/* Label shown when there are no logins to list */
-"LoginsList.NoLoginsFound.Description" = "सुरक्षित गरिएका लगइनहरू यहाँ देखिने छन्। यदि तपाईंले आफ्नो लगइनहरू Firefox मा फरक यन्त्रमा सुरक्षित गर्नुभयो भने, आफ्नो Firefox खातामा साइन इन गर्नुहोस्।";
-
-/* Label shown when there are no logins saved */
-"LoginsList.NoLoginsFound.Title" = "कुनै पनि लगइनहरु फेला परेनन्";
-
 /* Label that appears after the search if there are no logins matching the search */
 "LoginsList.NoMatchingResult.Subtitle" = "तपाईको खोजसँग मिल्ने कुनै पनि परिणामहरू छैनन्।";
 
-/* Label displayed when a user searches and no matches can be found against the search query */
-"LoginsList.NoMatchingResult.Title" = "कुनै मिल्ने लगइनहरू छैनन्";
-
 /* Title for cancel button for user to stop searching for a particular login */
 "LoginsList.Search.Cancel" = "रद्द गर्नुहोस्";
-
-/* Placeholder text for search field */
-"LoginsList.Search.Placeholder" = "लगइनहरु खोज्नुहोस्";
 
 /* Label displaying select a password to fill instruction */
 "LoginsList.SelectPassword.Title" = "भर्नको लागि कुनै एउटा पासवर्ड चयन गर्नुहोस्";
@@ -657,9 +642,6 @@
 
 /* Title for the button that marks a reading list item as unread */
 "Mark as Unread" = "नपढेको रूपमा चिन्ह लगाउनुहोस्";
-
-/* Long label for the add bookmark button displayed in the menu. Pressing this button bookmarks the current page. */
-"Menu.AddBookmark.AlternateLabel.v99" = "बुकमार्क थप्नुहोस्";
 
 /* Toast displayed to the user after a bookmark has been added. */
 "Menu.AddBookmark.Confirm" = "पुस्तकचिनो थपियो";
@@ -738,9 +720,6 @@
 
 /* Toast displayed to the user after removing the item to the Shortcuts. */
 "Menu.RemovePin.Confirm2.v99" = "सर्टकटहरूबाट हटाइयो";
-
-/* Long label for the remove from reading list button in the menu. Pressing this button removes the current page from the reading list. */
-"Menu.RemoveReadingList.AlternateLabel.v99" = "पठन सूचीबाट हटाउनुहोस्";
 
 /* Toast displayed to confirm to the user that his reading list item was correctly removed. */
 "Menu.RemoveReadingList.Confirm.v99" = "पठन सूचीबाट हटाइयो";
