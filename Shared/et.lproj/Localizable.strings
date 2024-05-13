@@ -604,9 +604,6 @@
 /* Title of the Learn More button that links to a support page about device passcode requirements. */
 "Logins.DevicePasscodeRequired.LearnMoreButtonTitle" = "Rohkem teavet";
 
-/* Message shown when you enter Logins & Passwords without having a device passcode set. */
-"Logins.DevicePasscodeRequired.Message" = "Kasutajanimede ja paroolide salvestamiseks ning automaatseks täitmiseks luba Face ID, Touch ID või seadme pääsukood.";
-
 /* Title of the Continue button. */
 "Logins.Onboarding.ContinueButtonTitle" = "Jätka";
 
@@ -652,23 +649,11 @@
 /* Placeholder test for search box in logins list view. */
 "LoginsList.LoginsListSearchPlaceholder" = "Filtreeri";
 
-/* Label shown when there are no logins to list */
-"LoginsList.NoLoginsFound.Description" = "Salvestatud kasutajatunnuseid kuvatakse siin. Kui salvestasid oma kasutajatunnused teises seadmes olevasse Firefoxi, siis logi sisse oma Firefoxi kontosse.";
-
-/* Label shown when there are no logins saved */
-"LoginsList.NoLoginsFound.Title" = "Kasutajakontosid ei leitud";
-
 /* Label that appears after the search if there are no logins matching the search */
 "LoginsList.NoMatchingResult.Subtitle" = "Otsingule ei leitud vasteid.";
 
-/* Label displayed when a user searches and no matches can be found against the search query */
-"LoginsList.NoMatchingResult.Title" = "Sobivaid kasutajatunnuseid ei leitud";
-
 /* Title for cancel button for user to stop searching for a particular login */
 "LoginsList.Search.Cancel" = "Loobu";
-
-/* Placeholder text for search field */
-"LoginsList.Search.Placeholder" = "Otsi kasutajakontosid";
 
 /* Label displaying select a password to fill instruction */
 "LoginsList.SelectPassword.Title" = "Parooli valimine täitmiseks";
@@ -684,9 +669,6 @@
 
 /* Title for the button that marks a reading list item as unread */
 "Mark as Unread" = "Märgi mitteloetuks";
-
-/* Long label for the add bookmark button displayed in the menu. Pressing this button bookmarks the current page. */
-"Menu.AddBookmark.AlternateLabel.v99" = "Lisa järjehoidjatesse";
 
 /* Toast displayed to the user after a bookmark has been added. */
 "Menu.AddBookmark.Confirm" = "Järjehoidja lisatud";
@@ -765,9 +747,6 @@
 
 /* Toast displayed to the user after removing the item to the Shortcuts. */
 "Menu.RemovePin.Confirm2.v99" = "Eemalda otseteede hulgast";
-
-/* Long label for the remove from reading list button in the menu. Pressing this button removes the current page from the reading list. */
-"Menu.RemoveReadingList.AlternateLabel.v99" = "Eemalda lugemisnimekirjast";
 
 /* Toast displayed to confirm to the user that his reading list item was correctly removed. */
 "Menu.RemoveReadingList.Confirm.v99" = "Lugemisnimekirjast eemaldatud";
