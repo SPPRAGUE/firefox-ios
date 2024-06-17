@@ -175,6 +175,9 @@
 /* The label text in the Button Toast for switching to a fresh New Tab. */
 "ContextMenu.ButtonToast.NewTabOpened.LabelText" = "Novo separador aberto";
 
+/* The label text in the Button Toast for switching to a fresh New Tab. */
+"ContextMenu.ButtonToast.NewTabOpened.LabelText.v114" = "Novo separador aberto";
+
 /* Context menu item for copying an image to the clipboard */
 "ContextMenu.CopyImageButtonTitle" = "Copiar imagem";
 
@@ -643,9 +646,6 @@
 /* Title of the Learn More button that links to a support page about device passcode requirements. */
 "Logins.DevicePasscodeRequired.LearnMoreButtonTitle" = "Saber mais";
 
-/* Message shown when you enter Logins & Passwords without having a device passcode set. */
-"Logins.DevicePasscodeRequired.Message" = "Para guardar e preencher automaticamente credenciais e palavras-passe, ative o Face ID, Touch ID ou um código do dispositivo.";
-
 /* Title of the Continue button. */
 "Logins.Onboarding.ContinueButtonTitle" = "Continuar";
 
@@ -691,23 +691,11 @@
 /* Placeholder test for search box in logins list view. */
 "LoginsList.LoginsListSearchPlaceholder" = "Filtrar";
 
-/* Label shown when there are no logins to list */
-"LoginsList.NoLoginsFound.Description" = "As credenciais guardadas serão apresentadas aqui. Se guardou as suas credenciais no Firefox de um outro dispositivo, inicie sessão na sua Conta Firefox.";
-
-/* Label shown when there are no logins saved */
-"LoginsList.NoLoginsFound.Title" = "Não foram encontradas credenciais";
-
 /* Label that appears after the search if there are no logins matching the search */
 "LoginsList.NoMatchingResult.Subtitle" = "Não foram encontrados resultados que correspondam à sua pesquisa.";
 
-/* Label displayed when a user searches and no matches can be found against the search query */
-"LoginsList.NoMatchingResult.Title" = "Sem credenciais coincidentes";
-
 /* Title for cancel button for user to stop searching for a particular login */
 "LoginsList.Search.Cancel" = "Cancelar";
-
-/* Placeholder text for search field */
-"LoginsList.Search.Placeholder" = "Pesquisar credenciais";
 
 /* Label displaying select a password to fill instruction */
 "LoginsList.SelectPassword.Title" = "Selecione uma palavra-passe para preencher";
@@ -723,9 +711,6 @@
 
 /* Title for the button that marks a reading list item as unread */
 "Mark as Unread" = "Marcar como não lida";
-
-/* Long label for the add bookmark button displayed in the menu. Pressing this button bookmarks the current page. */
-"Menu.AddBookmark.AlternateLabel.v99" = "Adicionar marcador";
 
 /* Toast displayed to the user after a bookmark has been added. */
 "Menu.AddBookmark.Confirm" = "Marcador adicionado";
@@ -810,9 +795,6 @@
 
 /* Toast displayed to the user after removing the item to the Shortcuts. */
 "Menu.RemovePin.Confirm2.v99" = "Removido dos Atalhos";
-
-/* Long label for the remove from reading list button in the menu. Pressing this button removes the current page from the reading list. */
-"Menu.RemoveReadingList.AlternateLabel.v99" = "Remover da Lista de leitura";
 
 /* Toast displayed to confirm to the user that his reading list item was correctly removed. */
 "Menu.RemoveReadingList.Confirm.v99" = "Removido da Lista de leitura";
@@ -1069,15 +1051,6 @@
 /* The confirmation button */
 "Search.ThirdPartyEngines.OK" = "OK";
 
-/* Accessibility label for default search engine setting. */
-"SearchSettings.Accessibility.DefaultSearchEngine.v106" = "Motor de pesquisa predefinido";
-
-/* Title for default search engine settings section. */
-"SearchSettings.Title.DefaultSearchEngine.v106" = "Motor de pesquisa predefinido";
-
-/* Navigation title for search settings. */
-"SearchSettings.Title.Search.v106" = "Pesquisar";
-
 /* Message displayed in the crash dialog above the buttons used to select when sending reports */
 "Send a crash report so Mozilla can fix the problem?" = "Enviar um relatório de falha para que a Mozilla possa corrigir o problema?";
 
@@ -1170,9 +1143,6 @@
 
 /* The placeholder for URL Field when saving a custom search engine */
 "Settings.AddCustomEngine.URLPlaceholder" = "URL (Substitua a pesquisa com %s)";
-
-/* Label used as an item in Settings screen. When touched, it will take user to credit card settings page to that will allows to add or modify saved credit cards to allow for autofill in a webpage. */
-"Settings.AutofillCreditCard.Title.v112" = "Autopreenchimento de Cartões de Crédito";
 
 /* Button in Data Management that clears all items. */
 "Settings.ClearAllWebsiteData.Clear.Button" = "Limpar todos os dados de websites";
@@ -1290,9 +1260,6 @@
 
 /* In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle Shortcuts section on the Firefox homepage on or off */
 "Settings.Home.Option.Shortcuts" = "Atalhos";
-
-/* In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to turn the Pocket Sponsored Stories on the Firefox homepage on or off */
-"Settings.Home.Option.SponsoredPocket.v103" = "Histórias patrocinadas";
 
 /* In the settings menu, on the Start at Home homepage customization option, this allows users to set this setting to return to the Homepage after four hours of inactivity. */
 "Settings.Home.Option.StartAtHome.AfterFourHours" = "Página inicial após quatro horas de inatividade";
