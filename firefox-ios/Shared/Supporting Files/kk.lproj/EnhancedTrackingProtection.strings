@@ -52,8 +52,5 @@
 "Menu.EnhancedTrackingProtection.Switch.Title.v128" = "Бақылаудан кеңейтілген қорғаныс";
 
 /* A switch to disable enhanced tracking protection inside the menu. */
-"Menu.EnhancedTrackingProtection.SwitchOff.Text.v128" = "Қорғаныстар СӨНДІРІЛГЕН. Біз оны қайта қосуды ұсынамыз.";
-
-/* A switch to disable enhanced tracking protection inside the menu. */
 "Menu.EnhancedTrackingProtection.SwitchOn.Text.v128" = "Бұл сайтта бірдеңе бұзылған болып көрінсе, оны өшіріп көріңіз.";
 

@@ -37,9 +37,6 @@
 /* Section title label for recently visited websites */
 "ActivityStream.RecentHistory.Title" = "Visitado recentemente";
 
-/* Section title label for Shortcuts */
-"ActivityStream.Shortcuts.SectionTitle" = "Atalhos";
-
 /* The title for the setting page which lets you select the number of top site rows */
 "ActivityStream.TopSites.RowSettingFooter" = "Definir linhas";
 
@@ -757,6 +754,9 @@
 /* Label for the button, displayed in the menu, takes you to History screen when pressed. */
 "Menu.History.Label" = "Histórico";
 
+/* Label for the new private tab button in the menu page. Pressing this button opens a new private tab. */
+"Menu.NewPrivateTab.Label" = "Nova aba privativa";
+
 /* Label for the new tab button in the menu page. Pressing this button opens a new tab. */
 "Menu.NewTab.v99" = "Nova aba";
 
@@ -893,7 +893,7 @@
 "Oops! Firefox crashed" = "Ops! O Firefox travou";
 
 /* See http://mzl.la/1LXbDOL */
-"Open articles in Reader View by tapping the book icon when it appears in the title bar." = "Abra artigos no Leitor tocando no ícone de livro quando ele aparecer na barra de título.";
+"Open articles in Reader View by tapping the book icon when it appears in the title bar." = "Abra artigos no modo de leitura tocando no ícone de livro quando ele aparecer na barra de título.";
 
 /* See http://mzl.la/1G7uHo7 */
 "Open Settings" = "Abrir configurações";
@@ -941,10 +941,10 @@
 "read" = "lido";
 
 /* Accessibility label for the Reader View button */
-"Reader View" = "Leitor";
+"Reader View" = "Modo de leitura";
 
 /* Accessibility message e.g. spoken by VoiceOver when Reader Mode becomes available. */
-"ReaderMode.Available.VoiceOverAnnouncement" = "Modo Leitor disponível";
+"ReaderMode.Available.VoiceOverAnnouncement" = "Modo de leitura disponível";
 
 /* Name for Mark as read button in reader mode */
 "ReaderModeBar.MarkAsRead.v106" = "Marcar como lido";
@@ -989,7 +989,7 @@
 "Sans-serif" = "Sem serifa";
 
 /* See http://mzl.la/1LXbDOL */
-"Save pages to your Reading List by tapping the book plus icon in the Reader View controls." = "Salve páginas na sua lista de leitura, tocando no ícone de livro com + nos controles do Leitor.";
+"Save pages to your Reading List by tapping the book plus icon in the Reader View controls." = "Salve páginas na sua lista de leitura, tocando no ícone de livro com + nos controles do modo de leitura.";
 
 /* OK button to dismiss the error prompt. */
 "ScanQRCode.Error.OK.Button" = "OK";
@@ -1405,9 +1405,6 @@
 /* Description displayed under the ”Offer to Open Copied Link” option. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349. Placeholder is for the app name. */
 "Settings.OfferClipboardBar.Status.v128" = "Ao abrir %@";
 
-/* Description displayed under the ”Offer to Open Copied Link” option. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349 */
-"Settings.OfferClipboardBar.StatusV2" = "Ao abrir o Firefox";
-
 /* Title of setting to enable the Go to Copied URL feature. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349 */
 "Settings.OfferClipboardBar.Title" = "Oferecer abrir links copiados";
 
@@ -1688,7 +1685,7 @@
 "TabTrayButtons.Accessibility.ShowTabs.v106" = "Mostrar abas";
 
 /* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Firefox reader mode from another app. */
-"The page could not be displayed in Reader View." = "A página não pôde ser exibida no Leitor.";
+"The page could not be displayed in Reader View." = "A página não pôde ser exibida no modo de leitura.";
 
 /* Error message in the remote tabs panel */
 "There was a problem accessing tabs from your other devices. Try again in a few moments." = "Houve um problema ao acessar abas de seus outros dispositivos. Tente novamente daqui a pouco.";

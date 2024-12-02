@@ -52,8 +52,5 @@
 "Menu.EnhancedTrackingProtection.Switch.Title.v128" = "كۈچەيتىلگەن ئىزلاشتىن قوغداش";
 
 /* A switch to disable enhanced tracking protection inside the menu. */
-"Menu.EnhancedTrackingProtection.SwitchOff.Text.v128" = "قوغداش تاقاق. ئۇنى قايتا قوزغىتىشنى تەۋسىيە قىلىمىز.";
-
-/* A switch to disable enhanced tracking protection inside the menu. */
 "Menu.EnhancedTrackingProtection.SwitchOn.Text.v128" = "ئەگەر بۇ تور بېكەتتە بىرەر نەرسە بۇزۇلغاندەك كۆرۈنسە، ئۇنى تاقاپ سىناپ بېقىڭ.";
 
