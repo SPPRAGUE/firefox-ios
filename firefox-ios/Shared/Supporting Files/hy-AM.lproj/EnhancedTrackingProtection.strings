@@ -52,8 +52,5 @@
 "Menu.EnhancedTrackingProtection.Switch.Title.v128" = "Ուժեղացված հետագծման պաշտպանություն";
 
 /* A switch to disable enhanced tracking protection inside the menu. */
-"Menu.EnhancedTrackingProtection.SwitchOff.Text.v128" = "Պաշտպանություններն անջատված են: Առաջարկում ենք նորից միացնել այն։";
-
-/* A switch to disable enhanced tracking protection inside the menu. */
 "Menu.EnhancedTrackingProtection.SwitchOn.Text.v128" = "Եթե այս կայքում ինչ-որ բան կոտրված է, փորձեք անջատել այն:";
 
